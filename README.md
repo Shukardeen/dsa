@@ -13,8 +13,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
+| [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 ## Matrix
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
+## String
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
