@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Shukardeen/dsa/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 ## Matrix
@@ -21,10 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Shukardeen/dsa/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Shukardeen/dsa/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 ## Math
 |  |
