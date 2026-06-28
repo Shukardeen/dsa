@@ -43,5 +43,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shukardeen/dsa/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Shukardeen/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0328-odd-even-linked-list](https://github.com/Shukardeen/dsa/tree/master/0328-odd-even-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Shukardeen/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 <!---LeetCode Topics End-->
