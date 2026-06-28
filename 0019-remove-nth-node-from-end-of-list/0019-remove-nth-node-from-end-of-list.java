@@ -12,29 +12,23 @@ class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if(head == null) return head;
         if(head.next == null && n == 1) return null;
-        ListNode current = head;
-        int nodeCount = 0;
+        ListNode fastPointer = head;
+        ListNode slowPointer = head;
 
-        // count the number of nodes in list
-        while(current != null) {
-            nodeCount++;
-            current = current.next;
+        // move fast pointer n steps 
+        for(int i=0; i<n; i++) {
+            fastPointer = fastPointer.next;
+        }
+        if(fastPointer == null) return head.next;
+
+        // move fast ans slow pointer simultaneuosly one step
+        while(fastPointer.next != null) {
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next;
         }
 
-        if(nodeCount == n) return head.next;
-
-        // reach the node before the nth node from back
-        int nodePosition = nodeCount - n;
-        current = head;
-        while(current != null) {
-            nodePosition--;
-            if(nodePosition == 0) {
-                current.next = current.next.next;
-                break;
-            }
-            current = current.next;
-        }
-
+        // change the next of node at slowPointer
+        slowPointer.next = slowPointer.next.next;
         return head;
     }
 }
