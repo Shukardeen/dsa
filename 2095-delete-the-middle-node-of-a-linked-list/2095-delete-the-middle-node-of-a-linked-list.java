@@ -11,19 +11,20 @@
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
         if(head.next == null) return null;
-        int listLen = 0;
-        ListNode current = head;
-        while(current != null) {
-            listLen++;
-            current = current.next;
-        }
+        // node to track the previous node
+        ListNode prev = null;
+        // slow and fast pointers
+        ListNode slow = head;
+        ListNode fast = head;
 
-        // reach the node before middle node
-        current = head;
-        for(int i=0; i<(listLen/2)-1; i++) {
-            current = current.next;
+        // reach the middle node of the linked list
+        while(fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        current.next = current.next.next;
+        // update the next of prev node
+        prev.next = slow.next;
         return head;
     }
 }
