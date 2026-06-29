@@ -29,29 +29,24 @@ public class Solution {
             }
         }
 
-        // steps to move
-        int stepsToMove = Math.abs(lengthA - lengthB);
-
-        // move the longer list head
         currentA = headA;
         currentB = headB;
-        if(lengthA > lengthB) currentA = move(currentA, stepsToMove);
-        else currentB = move(currentB, stepsToMove);
-
-        // traverse both simultaneously 
-        while(currentA != null && currentB != null) {
-            if(currentA == currentB) return currentA;
-            currentA = currentA.next;
-            currentB = currentB.next;
-        }
-        return null;
+        if(lengthA < lengthB) return collisionPoint(currentA, currentB, lengthB-lengthA);
+        else return collisionPoint(currentB, currentA, lengthA-lengthB);
     }
 
-    // function to move
-    private static ListNode move(ListNode node, int steps) {
-        for(int i=0; i<steps; i++) {
-            node = node.next;
+    // function to find collision point
+    private static ListNode collisionPoint(ListNode smallerHead, ListNode largerHead, int steps) {
+        // move larger steps times
+        while(steps != 0) {
+            steps--;
+            largerHead = largerHead.next;
         }
-        return node;
+        // move both of them simultaneously
+        while(smallerHead != largerHead) {
+            smallerHead = smallerHead.next;
+            largerHead = largerHead.next;
+        }
+        return smallerHead;
     }
 }
