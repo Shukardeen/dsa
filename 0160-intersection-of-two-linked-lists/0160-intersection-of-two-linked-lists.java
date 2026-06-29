@@ -11,26 +11,47 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        // hashmap to store nodes of linked list A
-        HashMap<ListNode, Integer> map = new HashMap<>();
-        // store the nodes of linked list A in hash map
-        ListNode current = headA;
-        while(current != null) {
-            map.put(current, 1);
-            current = current.next;
-        }
+        // length variables
+        int lengthA = 0;
+        int lengthB = 0;
 
-        // store the node of linked list 2 in the linked list
-        current  = headB;
-        while(current != null) {
-            // check if map contains the current node
-            if(map.containsKey(current)) {
-                // if true, return the node 
-                return current;
+        // compute the length of lists
+        ListNode currentA = headA;
+        ListNode currentB = headB;
+        while(currentA != null || currentB != null) {
+            if(currentA != null) {
+                lengthA++;
+                currentA = currentA.next;
             }
-            current = current.next;
+            if(currentB != null) {
+                lengthB++;
+                currentB = currentB.next;
+            }
         }
 
+        // steps to move
+        int stepsToMove = Math.abs(lengthA - lengthB);
+
+        // move the longer list head
+        currentA = headA;
+        currentB = headB;
+        if(lengthA > lengthB) currentA = move(currentA, stepsToMove);
+        else currentB = move(currentB, stepsToMove);
+
+        // traverse both simultaneously 
+        while(currentA != null && currentB != null) {
+            if(currentA == currentB) return currentA;
+            currentA = currentA.next;
+            currentB = currentB.next;
+        }
         return null;
+    }
+
+    // function to move
+    private static ListNode move(ListNode node, int steps) {
+        for(int i=0; i<steps; i++) {
+            node = node.next;
+        }
+        return node;
     }
 }
