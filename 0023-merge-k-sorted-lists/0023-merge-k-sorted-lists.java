@@ -13,28 +13,34 @@ class Solution {
         if(lists.length == 0) return null;
         if(lists.length == 1) return lists[0];
 
-        // array list to store all values
-        List<Integer> values = new ArrayList<>();
-        // store all values
-        for(ListNode head: lists) {
-            ListNode current = head;
-            while(current != null) {
-                values.add(current.val);
-                current = current.next;
-            }
-        }
-        if(values.size() == 0) return null;
-
-        // sort the values
-        values.sort((a, b) -> Integer.compare(a, b));
-
-        // convert sorted array list to linked list
-        ListNode head = new ListNode(values.get(0));
-        ListNode current = head;
-        for(int i=1; i<values.size(); i++) {
-            current.next = new ListNode(values.get(i));
-            current = current.next;
+        ListNode head = lists[0];
+        for(int i=1; i<lists.length; i++) {
+            head = merge(head, lists[i]);
         }
         return head;
+    }
+
+    // method to merge two lists
+    private ListNode merge(ListNode head1, ListNode head2) {
+        if(head1 == null) return head2;
+        if(head2 == null) return head1;
+
+        ListNode current1 = head1;
+        ListNode current2 = head2;
+        ListNode dummyHead = new ListNode(-1);
+        ListNode dummyCurrent = dummyHead;
+
+        while(current1 != null && current2 != null) {
+            if(current1.val < current2.val) {
+                dummyCurrent.next = current1;
+                current1 = current1.next;
+            } else {
+                dummyCurrent.next = current2;
+                current2 = current2.next;
+            }
+            dummyCurrent = dummyCurrent.next;
+        }
+        dummyCurrent.next = (current1 == null) ? current2 : current1;
+        return dummyHead.next;
     }
 }
