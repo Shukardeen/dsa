@@ -23,11 +23,11 @@ class Solution {
                 current = current.next;
             }
         }
+        if(values.size() == 0) return null;
 
         // sort the values
         values.sort((a, b) -> Integer.compare(a, b));
 
-        if(values.size() == 0) return null;
         // convert sorted array list to linked list
         ListNode head = new ListNode(values.get(0));
         ListNode current = head;
