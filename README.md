@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
+| [0704-binary-search](https://github.com/Shukardeen/dsa/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -91,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Shukardeen/dsa/tree/master/0023-merge-k-sorted-lists) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Shukardeen/dsa/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
