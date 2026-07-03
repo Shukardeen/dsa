@@ -1,41 +1,45 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if(nums.length == 0) return new int[]{-1, -1};
-        int lb = lowerBound(nums, target);
-        if(lb == nums.length || nums[lb] != target) return new int[]{-1, -1};
-        int ub = upperBound(nums, target);
-        return new int[]{lb, ub-1};
+        int first = firstOccurence(nums, target);
+        if(first == -1) return new int[]{-1, -1};
+        int last = lastOccurence(nums, target);
+        return new int[]{first, last};
     }
 
-    // method to find lower bound
-    private int lowerBound(int[] arr, int target) {
+    // method to find first occurence
+    private int firstOccurence(int[] arr, int target) {
         int low = 0, high = arr.length-1;
-        int lb = arr.length;
+        int first = -1;
         while(low <= high) {
             int mid = low+(high-low)/2;
-            if(arr[mid] >= target) {
-                lb = mid;
+            if(arr[mid] == target) {
+                first = mid;
                 high = mid - 1;
-            } else {
+            } else if(arr[mid] < target) {
                 low = mid + 1;
+            } else {
+                high = mid-1;
             }
         }
-        return lb;
+        return first;
     }
 
-    // method to find upper bound
-    private int upperBound(int[] arr, int target) {
+    // method to find last occurence
+    private int lastOccurence(int[] arr, int target) {
         int low = 0, high = arr.length-1;
-        int ub = arr.length;
+        int last = arr.length;
         while(low <= high) {
             int mid = low+(high-low)/2;
-            if(arr[mid] > target) {
-                ub = mid;
-                high = mid - 1;
-            } else {
+            if(arr[mid] == target) {
+                last = mid;
                 low = mid + 1;
+            } else if(arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
-        return ub;
+        return last;
     }
 }
