@@ -9,17 +9,17 @@ class Solution {
         // implement binary search to find the minimum bananas to be eaten per hour to eat all bananas in given hours
         while(low<=high) {
             int mid = low+(high-low)/2;
-            if(time(piles, mid) <= h) high = mid - 1;
+            if(canEat(piles, mid, h)) high = mid - 1;
             else low = mid + 1;
         }
         return low;
     }
     // method to find the total hours koko will take to eat all bananas when k number of bananas are eaten per hour
-    private int time(int[] piles, int k) {
-        int totalHours = 0;
+    private boolean canEat(int[] piles, int k, int h) {
+        long hours = 0;
         for(int pile: piles) {
-            totalHours += Math.ceil((double) pile/k);
+            hours += (pile+k-1)/k;
         }
-        return totalHours;
+        return hours<=h;
     }
 }
