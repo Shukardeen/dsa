@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Shukardeen/dsa/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/Shukardeen/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Shukardeen/dsa/tree/master/0234-palindrome-linked-list) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Shukardeen/dsa/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Divide and Conquer
@@ -143,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Shukardeen/dsa/tree/master/0410-split-array-largest-sum) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Shukardeen/dsa/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
