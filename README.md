@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Shukardeen/dsa/tree/master/0162-find-peak-element) |
 | [0410-split-array-largest-sum](https://github.com/Shukardeen/dsa/tree/master/0410-split-array-largest-sum) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Shukardeen/dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Shukardeen/dsa/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Shukardeen/dsa/tree/master/0875-koko-eating-bananas) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Shukardeen/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Shukardeen/dsa/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Shukardeen/dsa/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Divide and Conquer
 |  |
@@ -155,4 +157,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
