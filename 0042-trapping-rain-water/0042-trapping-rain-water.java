@@ -2,31 +2,29 @@ class Solution {
     public int trap(int[] height) {
         int n = height.length;
 
-        // array to store prefix max of each building (previous building greater than building at i)
-        int[] prefixMax = new int[n];
-        // array to store suffix max (next building greater than building at i)
-        int[] suffixMax = new int[n];
+        // varibable for left and right pointers
+        int left = 0, right = n-1;
 
-        // compute prefix max
-        prefixMax[0] = height[0];
-        for(int i=1; i<n; i++) {
-            prefixMax[i] = Math.max(prefixMax[i-1], height[i]);
-        }
+        // variable to track left and right greater buildings
+        int leftMax = 0, rightMax = 0;
 
-        // compute suffix max
-        suffixMax[n-1] = height[n-1];
-        for(int i=n-2; i>=0; i--) {
-            suffixMax[i] = Math.max(suffixMax[i+1], height[i]);
-        }
+        // variable to store answer
+        int ans = 0;
 
-        // compute total water trapped
-        /*
-        water on each building = Math.min(leftMax, rightMax) - height[building]
-        */
-        int totalWater = 0;
-        for(int i=0; i<n; i++) {
-            totalWater += Math.min(prefixMax[i], suffixMax[i]) - height[i];
+        // traverse
+        while(left < right) {
+            if(height[left] <= height[right]) {
+                if(leftMax > height[left]) {
+                    ans += leftMax - height[left];
+                } else leftMax = height[left];
+                left++;
+            } else {
+                if(rightMax > height[right]) {
+                    ans += rightMax - height[right];
+                } else rightMax = height[right];
+                right--;
+            }
         }
-        return totalWater;
+        return ans;
     }
 }
