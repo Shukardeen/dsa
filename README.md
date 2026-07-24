@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Shukardeen/dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Shukardeen/dsa/tree/master/0704-binary-search) |
+| [0735-asteroid-collision](https://github.com/Shukardeen/dsa/tree/master/0735-asteroid-collision) |
 | [0875-koko-eating-bananas](https://github.com/Shukardeen/dsa/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shukardeen/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shukardeen/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Shukardeen/dsa/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Shukardeen/dsa/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shukardeen/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/Shukardeen/dsa/tree/master/2104-sum-of-subarray-ranges) |
 | [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
@@ -176,4 +178,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Shukardeen/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/Shukardeen/dsa/tree/master/2104-sum-of-subarray-ranges) |
 | [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
+## Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/Shukardeen/dsa/tree/master/0735-asteroid-collision) |
 <!---LeetCode Topics End-->
