@@ -17,7 +17,7 @@ class Solution {
         for(int i=0; i<n; i++) {
             long left = i-pse[i];
             long right = nse[i]-i;
-            sum += (left*right*arr[i]);
+            sum += (left*right*(long)arr[i]);
             sum %= MOD;
         }
         return (int) sum;
