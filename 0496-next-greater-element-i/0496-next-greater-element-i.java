@@ -5,7 +5,7 @@ class Solution {
         // array to store next greater elements of nums1 elements
         int[] nge1 = new int[n1];
         // hashmap to store next greater elements of nums2 elements
-        HashMap<Integer, Integer> nge2 = new HashMap<>();
+        Map<Integer, Integer> nge2 = new HashMap<>();
 
         // stack to store greater elements
         Deque<Integer> st = new ArrayDeque<>();
