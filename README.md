@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Shukardeen/dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/Shukardeen/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Shukardeen/dsa/tree/master/1552-magnetic-force-between-two-balls) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Hash Table
 |  |
 | ------- |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Shukardeen/dsa/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Shukardeen/dsa/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Divide and Conquer
 |  |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Shukardeen/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Merge Sort
 |  |
 | ------- |
@@ -137,10 +140,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Shukardeen/dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/Shukardeen/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Shukardeen/dsa/tree/master/1552-magnetic-force-between-two-balls) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Sorting
 |  |
 | ------- |
 | [1552-magnetic-force-between-two-balls](https://github.com/Shukardeen/dsa/tree/master/1552-magnetic-force-between-two-balls) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Greedy
 |  |
 | ------- |
@@ -158,4 +163,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
+| [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 <!---LeetCode Topics End-->
