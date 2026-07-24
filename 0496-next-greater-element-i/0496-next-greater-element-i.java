@@ -4,8 +4,8 @@ class Solution {
         int n2 = nums2.length;
         // array to store next greater elements of nums1 elements
         int[] nge1 = new int[n1];
-        // array to store next greater elements of nums2 elements
-        int[] nge2 = new int[n2];
+        // hashmap to store next greater elements of nums2 elements
+        HashMap<Integer, Integer> nge2 = new HashMap<>();
 
         // stack to store greater elements
         Deque<Integer> st = new ArrayDeque<>();
@@ -15,20 +15,13 @@ class Solution {
             while(!st.isEmpty() && st.peek() <= nums2[i]) {
                 st.pop();
             }
-            nge2[i] = st.isEmpty() ? -1 : st.peek();
+            nge2.put(nums2[i], st.isEmpty() ? -1 : st.peek());
             st.push(nums2[i]);
         }
 
         // get the next greater elements of nums1 from nge2
         for(int i=0; i<n1; i++) {
-            int j = 0;
-            while(j<n2) {
-                if(nums2[j] == nums1[i]) {
-                    nge1[i] = nge2[j];
-                    break;
-                }
-                j++;
-            }
+            nge1[i] = nge2.get(nums1[i]);
         }
         return nge1;
     }
