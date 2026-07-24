@@ -1,6 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
-        if(s.length() == 1) return false;
+        // if(s.length() == 1) return false;
         // stack to store opening brackets
         Deque<Character> st = new ArrayDeque<>();
 
