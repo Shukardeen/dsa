@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Shukardeen/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Shukardeen/dsa/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Shukardeen/dsa/tree/master/0162-find-peak-element) |
+| [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 | [0410-split-array-largest-sum](https://github.com/Shukardeen/dsa/tree/master/0410-split-array-largest-sum) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shukardeen/dsa/tree/master/0503-next-greater-element-ii) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
 | [0085-maximal-rectangle](https://github.com/Shukardeen/dsa/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 ## String
 |  |
 | ------- |
@@ -202,9 +204,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
+| [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
