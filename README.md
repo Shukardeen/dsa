@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Shukardeen/dsa/tree/master/0037-sudoku-solver) |
+| [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Shukardeen/dsa/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shukardeen/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Shukardeen/dsa/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Shukardeen/dsa/tree/master/0022-generate-parentheses) |
+| [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
@@ -213,9 +215,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
