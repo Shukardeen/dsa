@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Shukardeen/dsa/tree/master/0085-maximal-rectangle) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/Shukardeen/dsa/tree/master/0410-split-array-largest-sum) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shukardeen/dsa/tree/master/0907-sum-of-subarray-minimums) |
 ## Math
 |  |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Shukardeen/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Merge Sort
 |  |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Binary Tree
 |  |
 | ------- |
@@ -217,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Union-Find
 |  |
 | ------- |
@@ -225,4 +229,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
+## Graph Theory
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
