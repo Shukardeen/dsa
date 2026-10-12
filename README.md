@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Shukardeen/dsa/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shukardeen/dsa/tree/master/0160-intersection-of-two-linked-lists) |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Shukardeen/dsa/tree/master/0496-next-greater-element-i) |
 ## Backtracking
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Shukardeen/dsa/tree/master/0022-generate-parentheses) |
 | [0127-word-ladder](https://github.com/Shukardeen/dsa/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Shukardeen/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Merge Sort
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Shukardeen/dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2454-next-greater-element-iv](https://github.com/Shukardeen/dsa/tree/master/2454-next-greater-element-iv) |
 ## Greedy
@@ -237,4 +241,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
+## Counting
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
