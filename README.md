@@ -210,11 +210,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/Shukardeen/dsa/tree/master/0200-number-of-islands) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
@@ -253,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Shukardeen/dsa/tree/master/0451-sort-characters-by-frequency) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 <!---LeetCode Topics End-->
