@@ -14,32 +14,38 @@
  * }
  */
 class Solution {
+    TreeNode first, middle, last, prev;
+
     public void recoverTree(TreeNode root) {
-        // step 1: inorder traverse the tree
-        List<Integer> inorder = new ArrayList<>();
-        inorder(root, inorder);
+        // step 1: initialize first, middle, last, and prev
+        first = middle = last = null;
+        prev = new TreeNode(Integer.MIN_VALUE);
 
-        // step 2: sort the traversal
-        inorder.sort((a, b) -> Integer.compare(a, b));
-
-        // step 3: traverse tree and replace node value that doesn't match
-        checkAndReplace(root, inorder, new int[1]);
+        helper(root);
+        if(first != null && last != null) {
+            int temp = first.val;
+            first.val = last.val;
+            last.val = temp;
+        } else if(first != null && middle != null) {
+            int temp = first.val;
+            first.val = middle.val;
+            middle.val = temp;
+        }
     }
 
-    // method to find inorder traversal of tree
-    private void inorder(TreeNode root, List<Integer> ans) {
+    // recursive helper method
+    private void helper(TreeNode root) {
         if(root == null) return;
-        inorder(root.left, ans);
-        ans.add(root.val);
-        inorder(root.right, ans);
-    }
-
-    // method to check and replace wrong nodes
-    private void checkAndReplace(TreeNode root, List<Integer> inorder, int[] index) {
-        if(root == null) return;
-        checkAndReplace(root.left, inorder, index);
-        if(root.val != inorder.get(index[0])) root.val = inorder.get(index[0]);
-        index[0]++;
-        checkAndReplace(root.right, inorder, index);
+        helper(root.left);
+        if(prev != null && (root.val < prev.val)) {
+            if(first == null) {
+                first = prev;
+                middle = root;
+            } else {
+                last = root;
+            }
+        }
+        prev = root;
+        helper(root.right);
     }
 }
