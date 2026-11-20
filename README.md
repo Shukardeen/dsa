@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
+| [0700-search-in-a-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0700-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shukardeen/dsa/tree/master/0144-binary-tree-preorder-traversal) |
+| [0700-search-in-a-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0700-search-in-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -260,4 +262,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0099-recover-binary-search-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/Shukardeen/dsa/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
