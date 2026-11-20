@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Shukardeen/dsa/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Shukardeen/dsa/tree/master/0085-maximal-rectangle) |
 | [0131-palindrome-partitioning](https://github.com/Shukardeen/dsa/tree/master/0131-palindrome-partitioning) |
+| [0343-integer-break](https://github.com/Shukardeen/dsa/tree/master/0343-integer-break) |
 | [0410-split-array-largest-sum](https://github.com/Shukardeen/dsa/tree/master/0410-split-array-largest-sum) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shukardeen/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shukardeen/dsa/tree/master/0907-sum-of-subarray-minimums) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Shukardeen/dsa/tree/master/0002-add-two-numbers) |
 | [0060-permutation-sequence](https://github.com/Shukardeen/dsa/tree/master/0060-permutation-sequence) |
 | [0069-sqrtx](https://github.com/Shukardeen/dsa/tree/master/0069-sqrtx) |
+| [0343-integer-break](https://github.com/Shukardeen/dsa/tree/master/0343-integer-break) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Shukardeen/dsa/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Recursion
 |  |
