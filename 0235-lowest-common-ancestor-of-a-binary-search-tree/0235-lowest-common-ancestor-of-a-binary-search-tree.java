@@ -15,13 +15,13 @@ class Solution {
 
     // recursive helper method
     private TreeNode helper(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null || root == p || root == q) return root;
-
-        TreeNode left = helper(root.left, p, q);
-        TreeNode right = helper(root.right, p, q);
-
-        if(left == null) return right;
-        else if(right == null) return left;
-        else return root;
+        if(root == null) return null;
+        int curr = root.val;
+        if(curr > p.val && curr > q.val) {
+            return helper(root.left, p, q);
+        } else if(curr < p.val && curr < q.val) {
+            return helper(root.right, p, q);
+        }
+        return root;
     }
 }
