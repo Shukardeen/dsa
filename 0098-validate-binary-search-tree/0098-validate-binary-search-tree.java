@@ -15,32 +15,13 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        List<Integer> inorder = new ArrayList<>();
-        helper(root, inorder);
-
-        for(int i=1; i<inorder.size(); i++) {
-            if(inorder.get(i) <= inorder.get(i-1)) {
-                return false;
-            }
-        }
-
-        return true;
+        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
     // method to find inorder traversal of bst
-    private void helper(TreeNode root, List<Integer> inorder) {
-        TreeNode curr = root;
-        Deque<TreeNode> st = new ArrayDeque<>();
-
-        while(curr != null || !st.isEmpty()) {
-            if(curr != null) {
-                st.push(curr);
-                curr = curr.left;
-            } else {
-                TreeNode node = st.pop();
-                inorder.add(node.val);
-                curr = node.right;
-            }
-        }
+    private boolean helper(TreeNode root, long minVal, long maxVal) {
+        if(root == null) return true;
+        if(minVal >= root.val || root.val >= maxVal) return false;
+        return (helper(root.left, minVal, root.val) && helper(root.right, root.val, maxVal));
     }
 }
