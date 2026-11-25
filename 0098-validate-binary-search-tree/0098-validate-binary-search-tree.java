@@ -18,7 +18,7 @@ class Solution {
         return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    // method to find inorder traversal of bst
+    // recursive helper method
     private boolean helper(TreeNode root, long minVal, long maxVal) {
         if(root == null) return true;
         if(minVal >= root.val || root.val >= maxVal) return false;
