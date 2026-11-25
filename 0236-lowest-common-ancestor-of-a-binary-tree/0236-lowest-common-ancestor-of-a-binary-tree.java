@@ -17,6 +17,7 @@ class Solution {
         if(root == null || root == p || root == q) return root;
         TreeNode left = helper(root.left, p, q);
         TreeNode right = helper(root.right, p, q);
+
         if(left == null) return right;
         else if(right == null) return left;
         else return root;
